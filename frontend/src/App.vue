@@ -11,7 +11,7 @@
     <main class="app-main">
       <header class="app-head">
         <span class="head-desc">面向光伏组件、逆变器、汇流箱、变压器、储能与升压站运行监视的集中式电站运维后台。</span>
-        <span class="head-user">当前值班：{{ store.operator }} · {{ store.shiftLabel }}</span>
+        <span class="head-user">当前值班：{{ store.operator }}（{{ store.unit }}） · {{ store.shiftLabel }}</span>
       </header>
       <RouterView />
     </main>
